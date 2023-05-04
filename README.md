@@ -1,70 +1,33 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##  Full Stack Delivery Food App Using React `context-API` , `firebase` and `tailwind css  :
+ + Creating A Delivery Food App With `React`==>(frontend) And `firebase`==>(backend) for Storing , Accessing Database And Localstorage For Keeping It while Refreshing 
+ + Using `tailwind css` For Styling Or Inline Styling...
+ + Using `framer-motion` For Adding Beautiful Animations  (Amazign Library)
+ + Using `tailwind-scrollbar` For Adding And Controlling Scroll In The Site
+ + Go And Take A Look Then Go For Coding...
+ ---------------------------------------------------------------------------------------------------------------
+ ### Installation Requierments :
+ ```
+ npm i --save 
+             firebase 
+             tailwind -D npx tailwindcss init
+             framer-motion
+             react-router-dom
+   ``` 
+  ---------------------------------------------------------------------------------------------------------------
+ ### Live Demo : 
+ [Full-Stack Food Delivery](https://ob-delivery-food-app-context-firebase.onrender.com)
+ 
+ ---------------------------------------------------------------------------------------------------------------
+ ### Live Pictures :
+ <div>
+ <img src='https://user-images.githubusercontent.com/114960595/236311957-01d7bcae-47c7-4fb3-86c6-e5c22442aac5.png' />
+ <br />
+ <img src='https://user-images.githubusercontent.com/114960595/236311973-3df9deb3-8e58-4eba-b638-202705a73fed.png' />
+  <br />
+ <img src='https://user-images.githubusercontent.com/114960595/236311988-16ce5a1b-5642-4a95-a293-53b6ff548082.png' />
+  <br />
+ <img src='https://user-images.githubusercontent.com/114960595/236312003-6faf5686-c9a8-4a4f-882a-f308617e5795.png' />
+  <br />
+ <img src='https://user-images.githubusercontent.com/114960595/236312009-c126f4c1-7152-4fec-9f98-569f0c1dddc1.png' />
+ <br />
+ </div>
