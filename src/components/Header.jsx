@@ -55,13 +55,18 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       if (window.scrollY > 0) {
         TheHeader.style.cssText = "box-shadow: 3px 3px 3px #f97316a8"
       } else {
         TheHeader.style.cssText = "box-shadow: 0"
       }
-    })
+    }
+    window.addEventListener("scroll", handleScroll
+    )
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
   })
 
   return (

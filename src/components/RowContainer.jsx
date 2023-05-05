@@ -5,6 +5,9 @@ import NotFound from "../img/NotFound.svg";
 import { useStateValue } from "../context/StateProvider";
 import { actionType } from "../context/reducer";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const RowContainer = ({ flag, data, scrollValue }) => {
   const rowContainer = useRef();
 
@@ -28,6 +31,14 @@ const RowContainer = ({ flag, data, scrollValue }) => {
     addtocart();
   }, [items]);
 
+  const notify = () => toast.success("New Item Added", {
+    theme: "dark"
+  });
+  const handleAdd = (item) => {
+    setItems([...cartItems, item]);
+    notify();
+  }
+
   return (
     <div
       ref={rowContainer}
@@ -36,6 +47,10 @@ const RowContainer = ({ flag, data, scrollValue }) => {
         : "overflow-x-hidden flex-wrap justify-center"
         }`}
     >
+      <ToastContainer
+        position="bottom-right"
+        autoClose={300}
+      />
       {data && data.length > 0 ? (
         data.map((item) => (
           <div
@@ -56,7 +71,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
               <motion.div
                 whileTap={{ scale: 0.75 }}
                 className="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center cursor-pointer hover:shadow-md -mt-8"
-                onClick={() => setItems([...cartItems, item])}
+                onClick={() => handleAdd(item)}
               >
                 <MdShoppingBasket className="text-white" />
               </motion.div>
